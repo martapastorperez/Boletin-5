@@ -8,19 +8,19 @@ public class Figura {
     public Figura(){
         
     }
-    public Figura(float lado) {
+    public Figura(float lado){
         this.lado = lado;
     }
     public float getLado(){
         return lado;
     }
 
-    public void setLado(float lado) {
+    public void setLado(float lado){
         this.lado = lado;
     }
 
     @Override
-    public String toString() {
+    public String toString(){
         return "Figura{" + "lado=" + lado + '}';
     
     }

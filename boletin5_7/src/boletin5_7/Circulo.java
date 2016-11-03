@@ -14,16 +14,16 @@ public class Circulo {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    public float getRadio() {
+    public float getRadio(){
         return radio;
     }
 
-    public void setRadio(float radio) {
+    public void setRadio(float radio){
         this.radio = radio;
     }
 
     @Override
-    public String toString() {
+    public String toString(){
         return "Circulo{" + "radio=" + radio + '}';
     }
     public void calcularArea(float radio){

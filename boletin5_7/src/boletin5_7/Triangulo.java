@@ -14,24 +14,24 @@ public class Triangulo {
         this.altura = altura;
     }
 
-    public float getBase() {
+    public float getBase(){
         return base;
     }
 
-    public float getAltura() {
+    public float getAltura(){
         return altura;
     }
 
-    public void setBase(float base) {
+    public void setBase(float base){
         this.base = base;
     }
 
-    public void setAltura(float altura) {
+    public void setAltura(float altura){
         this.altura = altura;
     }
 
     @Override
-    public String toString() {
+    public String toString(){
         return "Triangulo{" + "base=" + base + ", altura=" + altura + '}';
     }
     public void calcularArea(float ba,float al){
