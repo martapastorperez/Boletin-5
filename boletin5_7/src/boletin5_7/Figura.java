@@ -1,6 +1,8 @@
 
 package boletin5_7;
 
+import javax.swing.JOptionPane;
+
 public class Figura {
     private float lado;
     public Figura(){
@@ -23,6 +25,6 @@ public class Figura {
     
     }
     public void areaCadrado(float la){
-        System.out.println("Cadrado="+(la*la));
+        JOptionPane.showInputDialog("Cadrado="+(la*la));
     }
 }

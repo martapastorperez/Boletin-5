@@ -1,6 +1,8 @@
 
 package boletin5_7;
 
+import javax.swing.JOptionPane;
+
 public class Triangulo {
     private float base, altura;
     public Triangulo(){
@@ -33,7 +35,7 @@ public class Triangulo {
         return "Triangulo{" + "base=" + base + ", altura=" + altura + '}';
     }
     public void calcularArea(float ba,float al){
-        System.out.println("Triangulo="+(ba*al/2));
+        JOptionPane.showInputDialog("Triangulo="+(ba*al/2));
     }
 }
 
